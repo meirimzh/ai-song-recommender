@@ -58,13 +58,3 @@ if __name__ == "__main__":
     df["cluster"] = labels
     
     df.to_csv("data/clean_tracks_with_clusters.csv", index=False, encoding="utf-8-sig")
- 
-    #test
-    song_name = "Dance the night away"
-    artist_name = "Twice"
-    
-    similar = find_similar_songs(song_name, artist_name, df, features, top_n=5)
-    
-    if similar is not None:
-        print("similar songs to:", song_name)
-        print(similar)
