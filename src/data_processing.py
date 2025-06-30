@@ -18,7 +18,7 @@ def clean_and_process_data(input_path, output_path):
     ]
     df = df[features]
     
-    df = df.dropna() #drops the rows with the missing values
+    df = df.dropna() #removes any rows with a missing value
 
     
     df = df.drop_duplicates(subset=['track_name', 'artists']) # Drops duplicate songs
