@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link rel means relationship -->
+    <link rel="stylesheet" href="userChoice.css"> 
+    <!-- href is only for linking not running -->
+    <title>MUSIC RECOMMENDATIONS</title>
+</head>
+<body>
+    <!-- use label instead of div because div has no semantic meaning and no click to focus (automatically jumps to typing do not have to click the box first) -->
+    <div class="mood">
+        <label for="Mood">What mood do you want to listen to? </label><br>
+                                             <!-- br for line break -->
+        <input type="text" id="Mood">
+    </div>
+
+
+    <div class="back">          
+
+        <div class="space"></div>
+        <button id="backButton">Back to Home</button>
+    </div>
+    <script src="userChoice.js"></script> 
+</body>
+</html>

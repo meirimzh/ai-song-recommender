@@ -1,0 +1,41 @@
+
+
+/* do this when using height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.mood{
+    display:flex;
+    /* column because there are two items that i want to staack */
+    flex-direction:column; 
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.back{
+    /* display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-start;
+    /* without height will display from the top often needed with column */
+    /* height:100vh; */ 
+    /* padding-bottom:400px; */
+    /* absolute position removes it from the flow  */
+    position: absolute;
+    bottom:10px;
+    padding-left:50px;
+
+}
+.space{
+    height:100px;
+}
+
+button{
+    padding:20px;
+    font-size:10px;
+
+}
