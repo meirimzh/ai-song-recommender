@@ -2,6 +2,7 @@ import numpy as np
 import os
 import json
 import pandas as pd
+from datetime import datetime
 from sklearn.cluster import KMeans
 from sklearn.neighbors import NearestNeighbors
 from feedback import store_feedback,update_weight_from_feedback
@@ -68,6 +69,7 @@ def find_similar_songs(song_name, artist_name, df, features, top_n=5):
 
 def log_recommendation(input_songs, recommended_songs):
     log_entry ={
+        "timestamp":datetime.now().isoformat(),
         "input song":input_songs,
         "recommended_songs":recommended_songs
     }
