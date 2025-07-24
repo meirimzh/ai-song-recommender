@@ -1,0 +1,62 @@
+[
+  {
+    "input song": "Dance the night away-Twice",
+    "recommended_songs": [
+      "lilac -iu",
+      "can't stop (seungmin, i.n) -stray kids",
+      "talk that talk -twice",
+      "boy with luv (feat. halsey) -bts;halsey",
+      "very nice -seventeen"
+    ]
+  },
+  {
+    "input song": "dance the night away-twice",
+    "recommended_songs": [
+      "lilac -iu",
+      "can't stop (seungmin, i.n) -stray kids",
+      "talk that talk -twice",
+      "boy with luv (feat. halsey) -bts;halsey",
+      "very nice -seventeen"
+    ]
+  },
+  {
+    "input song": "lover-taylor swift",
+    "recommended_songs": [
+      "tere bin nahi laage (male version) -uzair jaswal",
+      "say you won't let go -james arthur",
+      "in the stars -benson boone",
+      "heartbreak anniversary -giveon",
+      "ek tarfa -darshan raval"
+    ]
+  },
+  {
+    "input song": "\u708e-lisa",
+    "recommended_songs": [
+      "yamiyo -eve",
+      "avid -sawanohiroyuki[nzk];mizuki",
+      "honkai world diva - movie ver. -mika kobayashi",
+      "gate of steiner -\u4f50\u3005\u6728\u6075\u68a8",
+      "lilas -sawanohiroyuki[nzk];\u305f\u304b\u306f\u3057\u307b\u306e\u304b"
+    ]
+  },
+  {
+    "input song": "lover-taylor swift",
+    "recommended_songs": [
+      "tere bin nahi laage (male version) -uzair jaswal",
+      "say you won't let go -james arthur",
+      "in the stars -benson boone",
+      "heartbreak anniversary -giveon",
+      "ek tarfa -darshan raval"
+    ]
+  },
+  {
+    "input song": "lover-taylor swift",
+    "recommended_songs": [
+      "tere bin nahi laage (male version) -uzair jaswal",
+      "say you won't let go -james arthur",
+      "in the stars -benson boone",
+      "heartbreak anniversary -giveon",
+      "ek tarfa -darshan raval"
+    ]
+  }
+]
