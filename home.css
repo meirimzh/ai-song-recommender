@@ -1,0 +1,16 @@
+h1{
+    font-weight: 10px;
+}
+/* button has to be in a container to flex */
+.button{
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+button{
+
+    /* margin-left:100px; */
+    padding:40px;
+    font-size: 20px ;
+}
