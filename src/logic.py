@@ -2,11 +2,10 @@ import numpy as np
 import os
 import json
 import pandas as pd
+from datetime import datetime
 from sklearn.cluster import KMeans
 from sklearn.neighbors import NearestNeighbors
 from feedback import store_feedback,update_weight_from_feedback
-
-
 
 def load_clean_data(path):
     df = pd.read_csv(path, encoding="utf-8")
@@ -64,6 +63,7 @@ def find_similar_songs(song_name, artist_name, df, features, feature_weight,top_
 
 def log_recommendation(input_songs, recommended_songs, log_file):
     log_entry ={
+        "timestamp":datetime.now().isoformat(),
         "input song":input_songs,
         "recommended_songs":recommended_songs
     }
