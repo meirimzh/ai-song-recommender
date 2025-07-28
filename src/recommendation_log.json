@@ -58,5 +58,125 @@
       "heartbreak anniversary -giveon",
       "ek tarfa -darshan raval"
     ]
+  },
+  {
+    "input song": "psycho - red velvet",
+    "recommended_songs": [
+      "Inner Child - BTS",
+      "Don't Leave Me - BTS",
+      "Begin - BTS",
+      "Voice Of Unity - Yuvan Shankar Raja;Silambarasan TR;Arivu",
+      "Neee - Yuvan Shankar Raja"
+    ]
+  },
+  {
+    "input song": "psycho - red velvet",
+    "recommended_songs": [
+      "Inner Child - BTS",
+      "Don't Leave Me - BTS",
+      "Begin - BTS",
+      "Voice Of Unity - Yuvan Shankar Raja;Silambarasan TR;Arivu",
+      "Neee - Yuvan Shankar Raja"
+    ]
+  },
+  {
+    "input song": "feel my rhythm - red velvet",
+    "recommended_songs": [
+      "Boy in Luv - BTS",
+      "FAKE LOVE - Rocking Vibe Mix - BTS",
+      "No More Dream - BTS",
+      "Mixtape : Time Out - Stray Kids",
+      "Ae Zindagi Gale Laga Le - Take, 1 - Ilaiyaraaja;Amit Trivedi;Arijit Singh"
+    ]
+  },
+  {
+    "input song": "dance the night away - twice",
+    "recommended_songs": [
+      "Arakkiyae (From \"Anbarivu\") - Yuvan Shankar Raja;Hiphop Tamizha",
+      "LILAC - IU",
+      "Blue Hour - TOMORROW X TOGETHER",
+      "_WORLD - SEVENTEEN",
+      "Can't Stop (Seungmin, I.N) - Stray Kids"
+    ]
+  },
+  {
+    "input song": "psycho - red velvet",
+    "recommended_songs": [
+      "cry for me - twice",
+      "hold me tight - bts",
+      "louder than bombs - bts",
+      "love shot - exo",
+      "pirate - everglow"
+    ]
+  },
+  {
+    "input song": "valentine - laufey",
+    "recommended_songs": [
+      "come close - anson seabra",
+      "simply the best (from \"schitt's creek\") - noah reid",
+      "life, i'm over you - zevia",
+      "tu hoti toh - bharat chauhan",
+      "i guess i'm in love - clinton kane"
+    ]
+  },
+  {
+    "input song": "everyone adores you (at least i do) - matt maltese",
+    "recommended_songs": [
+      "keno karle - fossils",
+      "kaisi hai ye udaasi - kailash kher;sukanya purayastha",
+      "the night we met - lord huron",
+      "hard to say i'm sorry - 2007 remaster - chicago",
+      "san luis - gregory alan isakov"
+    ]
+  },
+  {
+    "input song": "everyone adores you (at least i do) - matt maltese",
+    "recommended_songs": [
+      "keno karle - fossils",
+      "kaisi hai ye udaasi - kailash kher;sukanya purayastha",
+      "the night we met - lord huron",
+      "hard to say i'm sorry - 2007 remaster - chicago",
+      "san luis - gregory alan isakov"
+    ]
+  },
+  {
+    "input song": "valentine - laufey",
+    "recommended_songs": [
+      "come close - anson seabra",
+      "simply the best (from \"schitt's creek\") - noah reid",
+      "life, i'm over you - zevia",
+      "tu hoti toh - bharat chauhan",
+      "i guess i'm in love - clinton kane"
+    ]
+  },
+  {
+    "input song": "psycho - red velvet",
+    "recommended_songs": [
+      "cry for me - twice",
+      "hold me tight - bts",
+      "louder than bombs - bts",
+      "love shot - exo",
+      "pirate - everglow"
+    ]
+  },
+  {
+    "input song": "valentine - laufey",
+    "recommended_songs": [
+      "come close - anson seabra",
+      "simply the best (from \"schitt's creek\") - noah reid",
+      "life, i'm over you - zevia",
+      "tu hoti toh - bharat chauhan",
+      "i guess i'm in love - clinton kane"
+    ]
+  },
+  {
+    "input song": "the perfect pair - beabadoobee",
+    "recommended_songs": [
+      "crypto \u20bfoy - salem ilese",
+      "thank you note - salem ilese",
+      "mithye kotha - anupam roy",
+      "campus - vampire weekend",
+      "marry christmas - salem ilese"
+    ]
   }
 ]

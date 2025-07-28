@@ -14,8 +14,8 @@ def clean_and_process_data(input_path, output_path):
         'energy',
         'track_genre',
         'danceability',
-        'acousticness',
-        'loudness'
+        'loudness', 
+        'acousticness'
     ]
     df = df[features]
     
@@ -27,7 +27,7 @@ def clean_and_process_data(input_path, output_path):
     df = df.drop_duplicates(subset=['track_name', 'artists']) # Drops duplicate songs
 
    
-    numeric_cols = ['tempo', 'valence', 'energy','danceability','acousticness', 'loudness']  
+    numeric_cols = ['tempo', 'valence', 'energy','danceability', 'loudness', 'acousticness']  
     scaler = StandardScaler()
     df[numeric_cols] = scaler.fit_transform(df[numeric_cols])
 
