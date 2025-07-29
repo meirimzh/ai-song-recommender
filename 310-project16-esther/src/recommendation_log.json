@@ -189,5 +189,38 @@
       "hard to say i'm sorry - 2007 remaster - chicago",
       "san luis - gregory alan isakov"
     ]
+  },
+  {
+    "timestamp": "2025-07-29T16:36:14.873649",
+    "input song": "bad romance - lady gaga",
+    "recommended_songs": [
+      "treasure - cash cash radio mix - bruno mars",
+      "perfect strangers - jonas blue;jp cooper",
+      "i wish - joel corry;mabel",
+      "good feeling - flo rida",
+      "birthday - don diablo remix - anne-marie;don diablo"
+    ]
+  },
+  {
+    "timestamp": "2025-07-29T16:39:15.896822",
+    "input song": "poker face - lady gaga",
+    "recommended_songs": [
+      "god is a dancer - ti\u00ebsto;mabel",
+      "better mistakes - bebe rexha",
+      "woman - doja cat",
+      "attention - hugel remix - charlie puth;hugel",
+      "just dance - lady gaga;colby o'donis"
+    ]
+  },
+  {
+    "timestamp": "2025-07-29T16:40:06.518149",
+    "input song": "poker face - lady gaga",
+    "recommended_songs": [
+      "god is a dancer - ti\u00ebsto;mabel",
+      "better mistakes - bebe rexha",
+      "woman - doja cat",
+      "attention - hugel remix - charlie puth;hugel",
+      "just dance - lady gaga;colby o'donis"
+    ]
   }
 ]
