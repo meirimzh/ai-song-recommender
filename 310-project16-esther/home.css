@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: url('aura_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container with vinyl + text */
+.side-by-side-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Vinyl Record */
+.vinyl {
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #000 60%, #111 80%, #222 100%);
+  position: relative;
+  animation: spin 4s linear infinite;
+  aspect-ratio: 1 / 1; /*keeps it square so the vinyl is not squished*/
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.vinyl::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle,
+    transparent,
+    transparent 5px,
+    rgba(255,255,255,0.1) 6px
+  );
+}
+
+/* Center Label */
+.label {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #efefef, #ffffff);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: "Brush Script MT", cursive;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #111;
+  text-align: center;
+}
+
+/* Spinning Animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Text + button */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+h1 {
+  margin-left: 60px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.button {
+  margin-left: 60px;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}

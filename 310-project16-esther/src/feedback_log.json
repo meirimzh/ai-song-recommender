@@ -1,0 +1,62 @@
+[
+    {
+        "song": "dance the night away - twice",
+        "rating": 4,
+        "weights": {
+            "tempo": 1.6,
+            "valence": 1.0,
+            "energy": 1.3,
+            "danceability": 1.2,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "\u708e - lisa",
+        "rating": 5,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948496981255209,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948496981255209,
+            "loudness": 0.9948496981255209
+        }
+    }
+]
