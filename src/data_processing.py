@@ -1,5 +1,14 @@
 import pandas as pd
+import re
 from sklearn.preprocessing import StandardScaler
+
+def clean_track_name(song_name):
+    song_name = song_name.lower().strip()
+    song_name=re.sub(r'\(.*?\)','',song_name) #remove anything in ()
+    song_name = re.sub(r'\[.*?\]', '', song_name)#remove anythin in []  
+    song_name=re.split(r'\b(ft\.?|feat\.?|featuring)\b',song_name)[0]
+    song_name = song_name.split(' - ')[0] #removes everything after a dash
+    return song_name.strip()
 
 def clean_and_process_data(input_path, output_path):
     df = pd.read_csv(input_path, encoding="utf-8-sig") #encoding to detect non english characters
@@ -22,7 +31,7 @@ def clean_and_process_data(input_path, output_path):
     df = df.dropna() #removes any rows with a missing value
 
     
-    df['track_name'] = df['track_name'].str.lower().str.strip()
+    df['track_name'] = df['track_name'].apply(clean_track_name)
     df['artists'] = df['artists'].str.lower().str.strip()    
     df = df.drop_duplicates(subset=['track_name', 'artists']) # Drops duplicate songs
 

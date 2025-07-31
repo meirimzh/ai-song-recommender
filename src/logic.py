@@ -130,6 +130,10 @@ if __name__ == "__main__":
         formatted_recommendations = [f"{title} -{artist}" for title, artist in recommended_list]
         log_recommendation(input_song,formatted_recommendations)
         
+        print("\nFeature weights applied:")
+        for feat, weight in feature_weight.items():
+            print(f"{feat}: {weight:.2f}")
+
         try:
             rating = int(input("\nPlease rate the recommendation from 1 to 5: "))
             if 1<= rating<= 5:
@@ -144,3 +148,5 @@ if __name__ == "__main__":
         update = input("do u want to update weights now> (y/n): ").strip().lower()
         if update == 'y':
             update_weight_from_feedback()
+            
+        
