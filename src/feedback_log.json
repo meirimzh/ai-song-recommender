@@ -58,5 +58,53 @@
             "acousticness": 0.9948496981255209,
             "loudness": 0.9948496981255209
         }
+    },
+    {
+        "song": "pano - zack tabudlo",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948599987292699,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948599987292699,
+            "loudness": 0.9948599987292699
+        }
+    },
+    {
+        "song": "\u708e - lisa",
+        "rating": 4,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948685825657273,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948685825657273,
+            "loudness": 0.9948685825657273
+        }
+    },
+    {
+        "song": "anti-romantic - tomorrow x together",
+        "rating": 1,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9962971809720704,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9962971809720704,
+            "loudness": 0.9962971809720704
+        }
+    },
+    {
+        "song": "way back home - shaun",
+        "rating": 4,
+        "weights": {
+            "tempo": 0.9995,
+            "valence": 0.9950564616251905,
+            "energy": 0.999125,
+            "danceability": 0.999,
+            "acousticness": 0.9950564616251905,
+            "loudness": 0.9950564616251905
+        }
     }
 ]

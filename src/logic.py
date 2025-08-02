@@ -14,7 +14,7 @@ def load_clean_data(path):
     df = pd.read_csv(path, encoding="utf-8")
     return df
 
-def build_knn_model(X, n_neighbors=5):
+def build_knn_model(X, n_neighbors=5): 
     knn = NearestNeighbors(n_neighbors=n_neighbors, metric='euclidean')
     knn.fit(X)
     return knn
@@ -110,7 +110,6 @@ if __name__ == "__main__":
     
     kmeans = KMeans(n_clusters=10, random_state=42)
     labels = kmeans.fit_predict(X)
-    
     df["cluster"] = labels
     
     df.to_csv("data/clean_tracks_with_clusters.csv", index=False, encoding="utf-8-sig")
@@ -132,7 +131,7 @@ if __name__ == "__main__":
         
         print("\nFeature weights applied:")
         for feat, weight in feature_weight.items():
-            print(f"{feat}: {weight:.2f}")
+            print(f"{feat}: {weight:.7f}")
 
         try:
             rating = int(input("\nPlease rate the recommendation from 1 to 5: "))
