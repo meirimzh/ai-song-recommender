@@ -1,67 +1,92 @@
-/* do this when using height */
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
+body {
+  background-color: #320245;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Press Start 2P';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .container {
-    display:flex;
-    /* column because there are two items that i want to staack */
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-
-.input{
-    text-align: center;
-    margin-bottom: 25px;
-}
-   
-
-
-input{
-    font-size: 12px;
-    width: 200px;
-    margin: 5px 0;
-
-
+.input {
+  text-align: center;
+  margin-bottom: 25px;
+  color:white;
 }
 
+input {
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+  width: 200px;
+  margin: 5px 0;
+}
+
+/* Hide until we press get recommendations */
+#recommendations:empty {
+  display: none;
+}
 
 #recommendations {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 25px;
+  font-family: 'Press Start 2P';
+  margin-top: 30px;
+  padding: 20px;
+  background-color:#d07efc;
+  color: white;
+  border: 3px solid #d07efc;
+  font-size: 12px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  line-height: 1.8;
+  box-shadow: 0 0 15px #d07efc;
+  border-radius: 6px;
 }
 
-
-.back{
-    /* display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:flex-start;
-    /* without height will display from the top often needed with column */
-    /* height:100vh; */
-    /* padding-bottom:400px; */
-    /* absolute position removes it from the flow  */
-    position: absolute;
-    bottom: 10px;
-    padding-left: 50px;
-
-
-}
-.space{
-    height:100px;
+/* Back button fixed to bottom-left */
+.back {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
 
+button {
+  padding: 15px 25px;
+  font-size: 14px;
+  border: 3px solid #d17cff;
+  border-radius: 10px;
+  background-color: #6a0dad;
+  color: white;
+  cursor: pointer;
+  font-family: 'Press Start 2P';
+}
 
-button{
-    padding:20px;
-    font-size:10px;
+button:hover {
+  background-color: #d07efc;
+  color: #1a0033;
+  transform: scale(1.03);
+}
 
+#backButton {
+  background-color: #ff6f61;
+  border: 3px solid #ffb3a7;
+}
 
+#backButton:hover {
+  background-color: #ffb3a7;
+  color: #1a0033;
 }
