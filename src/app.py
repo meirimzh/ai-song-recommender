@@ -5,7 +5,6 @@ import pandas as pd
 
 from logic import (find_similar_songs, log_recommendation)
 
-
 BASE_DIR = os.path.dirname(__file__)
 FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
 weights_path = os.path.join(BASE_DIR, "weights.json")
@@ -31,7 +30,7 @@ def frontend_run():
 
 @app.route('/similar', methods=['POST'])
 def similar():
-    data = request.json #expeted output
+    data = request.json #expected output
     song_name = data.get('song')
     artist_name = data.get('artist')
 
