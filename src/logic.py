@@ -7,9 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.neighbors import NearestNeighbors
 from feedback import store_feedback,update_weight_from_feedback
 
-Log_file = os.path.join(os.path.dirname(__file__),"recommendation_log.json")
-
-
+log_file = os.path.join(os.path.dirname(__file__),"recommendation_log.json")
 def load_clean_data(path):
     df = pd.read_csv(path, encoding="utf-8")
     return df
@@ -27,7 +25,8 @@ def apply_feature_weights(df_subset, features,weights_dict):
     return weighted
 
 
-def find_similar_songs(song_name, artist_name, df, features, top_n=5):
+
+def find_similar_songs(song_name, artist_name, df, features, feature_weight,top_n=5):
     song_name_clean = song_name.strip().lower()
     artist_name_clean = artist_name.strip().lower()
     
@@ -46,14 +45,10 @@ def find_similar_songs(song_name, artist_name, df, features, top_n=5):
     # Find the song's cluster
     song_cluster = int(row["cluster"].values[0])
     cluster_df = df[df["cluster"] == song_cluster]
+
    
     cluster_df_weighted = apply_feature_weights(cluster_df,features,feature_weight)
     row_weighted = apply_feature_weights(row,features,feature_weight)
- 
-    for feature in feature_weight:
-        if feature in cluster_df_weighted.columns:
-            cluster_df_weighted[feature] = cluster_df_weighted[feature]*feature_weight[feature]
-            row_weighted[feature] = row_weighted[feature]*feature_weight[feature]
         
     X_cluster = cluster_df_weighted.values
     song_vector=row_weighted.values
@@ -67,22 +62,22 @@ def find_similar_songs(song_name, artist_name, df, features, top_n=5):
     
     return similar_songs
 
-def log_recommendation(input_songs, recommended_songs):
+def log_recommendation(input_songs, recommended_songs,log_file):
     log_entry ={
         "timestamp":datetime.now().isoformat(),
         "input song":input_songs,
         "recommended_songs":recommended_songs
     }
     
-    if os.path.exists(Log_file):
-        with open(Log_file,"r") as f:
+    if os.path.exists(log_file):
+        with open(log_file,"r") as f:
             logs = json.load(f)
     else:
         logs=[]
     
     logs.append(log_entry)
     
-    with open(Log_file,"w") as f:
+    with open(log_file,"w") as f:
         json.dump(logs,f,indent=2)
 
 
@@ -95,7 +90,7 @@ if __name__ == "__main__":
     base_path = os.path.dirname(__file__)
     weights_path = os.path.join(base_path,"weights.json")
 
-    base_features = ['tempo', 'valence', 'energy', 'danceability', 'acousticness','loudness']
+    base_features = ['tempo', 'valence', 'energy', 'danceability', 'loudness', 'acousticness']
     features = base_features+list(genre_dummies.columns)
     
     with open(weights_path  ,"r") as f:
@@ -118,7 +113,7 @@ if __name__ == "__main__":
     song_name = input("enter song name:").strip().lower()
     artist_name = input("enter the name of the artist:").strip().lower()
     
-    similar = find_similar_songs(song_name, artist_name, df, features, top_n=5)
+    similar = find_similar_songs(song_name, artist_name, df, features, feature_weight, top_n=5)
     
     if similar is not None:
         print(f"\nSimilar songs to: {song_name} by {artist_name}")
@@ -127,7 +122,7 @@ if __name__ == "__main__":
         input_song = f"{song_name}-{artist_name}"
         recommended_list=similar[["track_name","artists"]].values.tolist()
         formatted_recommendations = [f"{title} -{artist}" for title, artist in recommended_list]
-        log_recommendation(input_song,formatted_recommendations)
+        log_recommendation(input_song,formatted_recommendations,log_file)
         
         print("\nFeature weights applied:")
         for feat, weight in feature_weight.items():

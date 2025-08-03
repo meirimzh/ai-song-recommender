@@ -1,0 +1,157 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-color: #320245;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container with vinyl + text */
+.side-by-side-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+.vinyl-stuff {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.album_cover {
+  width: 300px;
+  height: auto;
+  left: 70px;
+  position: relative;
+  z-index: 2;
+}
+/* Vinyl Record */
+.vinyl {
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #000 60%, #111 80%, #222 100%);
+  position: relative;
+  animation: spin 4s linear infinite;
+  aspect-ratio: 1 / 1; /*keeps it square so the vinyl is not squished*/
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.vinyl::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle,
+    transparent,
+    transparent 5px,
+    rgba(255,255,255,0.1) 6px
+  );
+}
+
+/* Center Label */
+.label {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #efefef, #ffffff);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: "Brush Script MT", cursive;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #111;
+  text-align: center;
+}
+
+/* Spinning Animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Text + button */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  top: 40px;
+  position: absolute;
+  font-size:20px;
+  font-family: 'Press Start 2P';
+  font-weight: lighter;
+  margin-bottom: 15px;
+  color: white;
+  animation: pulseGlow 1.4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 2px #d17cff, 0 0 5px #eab2f6;
+  }
+  50% {
+    text-shadow:0 0 8px #eab2f6, 0 0 11px #d17cff;
+  }
+}
+
+.button {
+  margin-top: 60px;
+  text-align: center;
+  align-self: center;
+}
+
+button {
+  font-family: 'Press Start 2P';
+  padding: 20px 40px;
+  font-size: 18px;
+  border: 3px solid #d17cff;
+  border-radius: 10px;
+  background-color: #6a0dad;
+  color: white;
+  cursor: pointer;
+  animation: glowPulse 1.5s infinite;
+}
+
+button:hover {
+  background-color: #d07efc;
+  color: #1a0033;
+  transform: scale(1.03);
+}
+
+@keyframes growPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px #d07efc;
+  }
+  50% {
+    box-shadow: 0 0 23px #eab2f6;
+  }
+}
