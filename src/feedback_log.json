@@ -118,5 +118,65 @@
             "acousticness": 0.9950592182742141,
             "loudness": 0.9950592182742141
         }
+    },
+    {
+        "song": "attention ",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967219769906159,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967219769906159,
+            "loudness": 0.9967219769906159
+        }
+    },
+    {
+        "song": "anti-romantic",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967242324307262,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967242324307262,
+            "loudness": 0.9967242324307262
+        }
+    },
+    {
+        "song": "anti-romantic",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967262999174938,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967262999174938,
+            "loudness": 0.9967262999174938
+        }
+    },
+    {
+        "song": "attention ",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967282083668179,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967282083668179,
+            "loudness": 0.9967282083668179
+        }
+    },
+    {
+        "song": "best of me",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967299804983331,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967299804983331,
+            "loudness": 0.9967299804983331
+        }
     }
 ]

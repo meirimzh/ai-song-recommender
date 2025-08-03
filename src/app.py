@@ -4,6 +4,7 @@ import json
 import pandas as pd
 
 from logic import (find_similar_songs, log_recommendation)
+from feedback import store_feedback,update_weight_from_feedback
 
 BASE_DIR = os.path.dirname(__file__)
 FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
@@ -49,6 +50,24 @@ def similar():
     log_recommendation(input_song, formatted, log_file) #adding the calls to the log_recommendation file
 
     return jsonify({"recommendations": formatted})
+
+@app.route('/feedback', methods=['POST'])
+def feedback():
+    try:
+        data =request.get_json()
+        input_song = data.get('input_song')
+        rating = data.get('rating')
+
+        
+        with open(weights_path, "r") as f:
+            weights = json.load(f)
+        
+        store_feedback(input_song,rating,weights)
+        update_weight_from_feedback()
+        return jsonify({"message":"feedback stored successfully"}),200
+    except Exception as e:
+        print("Error in /feedback:", e)
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
     app.run(port = 5000)

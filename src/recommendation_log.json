@@ -332,5 +332,104 @@
       "say my name - david guetta;bebe rexha;j balvin",
       "something new - wiz khalifa;ty dolla $ign"
     ]
+  },
+  {
+    "timestamp": "2025-08-03T14:40:07.228004",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:40:08.390518",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:43:14.738370",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:46:45.485774",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:46:46.672110",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:48:37.591163",
+    "input song": "anti-romantic - tomorrow x together",
+    "recommended_songs": [
+      "povodhe prema - yuvan shankar raja",
+      "balma - charan raj;siddhartha belmannu",
+      "taste - stray kids",
+      "stigma - bts",
+      "stay with me - chanyeol;punch"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:52:54.495326",
+    "input song": "anti-romantic - tomorrow x together",
+    "recommended_songs": [
+      "povodhe prema - yuvan shankar raja",
+      "balma - charan raj;siddhartha belmannu",
+      "taste - stray kids",
+      "stigma - bts",
+      "stay with me - chanyeol;punch"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T14:54:17.298821",
+    "input song": "attention  - charlie puth",
+    "recommended_songs": [
+      "rock your body - burna boy",
+      "memory lane - wiz khalifa",
+      "say so - doja cat",
+      "say my name - david guetta;bebe rexha;j balvin",
+      "something new - wiz khalifa;ty dolla $ign"
+    ]
+  },
+  {
+    "timestamp": "2025-08-03T15:01:01.458227",
+    "input song": "best of me - bts",
+    "recommended_songs": [
+      "vellinilaa thullikalo - vidyasagar;m. g. sreekumar;k. s. chithra",
+      "maria - hwa sa",
+      "lovesick girls - blackpink",
+      "pachchai vanna - yuvan shankar raja",
+      "crystal snow - bts"
+    ]
   }
 ]
