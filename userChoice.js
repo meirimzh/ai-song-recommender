@@ -43,6 +43,7 @@ document.getElementById("submit").onclick = async function() {
 
             const ratingInstruction = document.createElement("p");
             ratingInstruction.textContent = "how would you rate the recommendations?";
+            ratingInstruction.style.color = "purple";
             ratingInstruction.style.margin="10px 0";
             ratingInstruction.style.fontWeight ="bold";
             heartContainer.appendChild(ratingInstruction);

@@ -178,5 +178,17 @@
             "acousticness": 0.9967299804983331,
             "loudness": 0.9967299804983331
         }
+    },
+    {
+        "song": "best of me",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967316344877473,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967316344877473,
+            "loudness": 0.9967316344877473
+        }
     }
 ]
