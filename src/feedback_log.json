@@ -1,0 +1,194 @@
+[
+    {
+        "song": "dance the night away - twice",
+        "rating": 4,
+        "weights": {
+            "tempo": 1.6,
+            "valence": 1.0,
+            "energy": 1.3,
+            "danceability": 1.2,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "\u708e - lisa",
+        "rating": 5,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 1.0,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 1.0,
+            "loudness": 1.0
+        }
+    },
+    {
+        "song": "lover - taylor swift",
+        "rating": 2,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948496981255209,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948496981255209,
+            "loudness": 0.9948496981255209
+        }
+    },
+    {
+        "song": "pano - zack tabudlo",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948599987292699,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948599987292699,
+            "loudness": 0.9948599987292699
+        }
+    },
+    {
+        "song": "\u708e - lisa",
+        "rating": 4,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9948685825657273,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9948685825657273,
+            "loudness": 0.9948685825657273
+        }
+    },
+    {
+        "song": "anti-romantic - tomorrow x together",
+        "rating": 1,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9962971809720704,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9962971809720704,
+            "loudness": 0.9962971809720704
+        }
+    },
+    {
+        "song": "way back home - shaun",
+        "rating": 4,
+        "weights": {
+            "tempo": 0.9995,
+            "valence": 0.9950564616251905,
+            "energy": 0.999125,
+            "danceability": 0.999,
+            "acousticness": 0.9950564616251905,
+            "loudness": 0.9950564616251905
+        }
+    },
+    {
+        "song": "attention - charlie puth",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9950592182742141,
+            "energy": 0.9994573611111112,
+            "danceability": 0.9992211111111111,
+            "acousticness": 0.9950592182742141,
+            "loudness": 0.9950592182742141
+        }
+    },
+    {
+        "song": "attention ",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967219769906159,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967219769906159,
+            "loudness": 0.9967219769906159
+        }
+    },
+    {
+        "song": "anti-romantic",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967242324307262,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967242324307262,
+            "loudness": 0.9967242324307262
+        }
+    },
+    {
+        "song": "anti-romantic",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967262999174938,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967262999174938,
+            "loudness": 0.9967262999174938
+        }
+    },
+    {
+        "song": "attention ",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967282083668179,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967282083668179,
+            "loudness": 0.9967282083668179
+        }
+    },
+    {
+        "song": "best of me",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967299804983331,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967299804983331,
+            "loudness": 0.9967299804983331
+        }
+    },
+    {
+        "song": "best of me",
+        "rating": 3,
+        "weights": {
+            "tempo": 1.0,
+            "valence": 0.9967316344877473,
+            "energy": 1.0,
+            "danceability": 1.0,
+            "acousticness": 0.9967316344877473,
+            "loudness": 0.9967316344877473
+        }
+    }
+]

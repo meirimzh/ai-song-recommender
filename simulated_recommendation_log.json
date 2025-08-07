@@ -1,0 +1,602 @@
+[
+  {
+    "timestamp": "2025-08-01T12:00:00",
+    "input song": "daniel tiger's neighborhood theme song",
+    "recommended_songs": [
+      "random_song_0_2",
+      "random_song_0_1",
+      "random_song_0_4",
+      "random_song_0_3",
+      "random_song_0_0"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T12:20:00",
+    "input song": "o le\u00e3o",
+    "recommended_songs": [
+      "random_song_1_2",
+      "random_song_1_0",
+      "random_song_1_3",
+      "liked_song_77",
+      "random_song_1_1"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T12:40:00",
+    "input song": "como sabes t\u00fa",
+    "recommended_songs": [
+      "random_song_2_4",
+      "random_song_2_1",
+      "random_song_2_2",
+      "random_song_2_0",
+      "random_song_2_3"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T13:00:00",
+    "input song": "er bleibt gleich",
+    "recommended_songs": [
+      "random_song_3_2",
+      "liked_song_79",
+      "random_song_3_3",
+      "random_song_3_0",
+      "random_song_3_1"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T13:20:00",
+    "input song": "a world divided",
+    "recommended_songs": [
+      "random_song_4_4",
+      "random_song_4_3",
+      "random_song_4_0",
+      "random_song_4_2",
+      "random_song_4_1"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T13:40:00",
+    "input song": "bruck it",
+    "recommended_songs": [
+      "liked_song_48",
+      "random_song_5_0",
+      "random_song_5_3",
+      "random_song_5_2",
+      "random_song_5_1"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T14:00:00",
+    "input song": "7+11=18",
+    "recommended_songs": [
+      "random_song_6_0",
+      "random_song_6_3",
+      "random_song_6_4",
+      "random_song_6_1",
+      "random_song_6_2"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T14:20:00",
+    "input song": "always look on the bright side of life",
+    "recommended_songs": [
+      "random_song_7_2",
+      "random_song_7_3",
+      "random_song_7_1",
+      "random_song_7_0",
+      "liked_song_87"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T14:40:00",
+    "input song": "desse jeito \u00e9 ruim pra mim / sinais / essa tal liberdade / depois do prazer / teu segredo / t\u00e1 vendo aquela lua",
+    "recommended_songs": [
+      "random_song_8_1",
+      "random_song_8_0",
+      "random_song_8_4",
+      "random_song_8_2",
+      "random_song_8_3"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T15:00:00",
+    "input song": "kamouki\u00e9",
+    "recommended_songs": [
+      "random_song_9_2",
+      "random_song_9_3",
+      "random_song_9_4",
+      "random_song_9_1",
+      "random_song_9_0"
+    ],
+    "precision@5": 0.0
+  },
+  {
+    "timestamp": "2025-08-01T15:20:00",
+    "input song": "\u662f\u4ec0\u9ebc\u8b93\u6211\u9047\u898b\u9019\u6a23\u7684\u4f60",
+    "recommended_songs": [
+      "random_song_10_2",
+      "random_song_10_3",
+      "liked_song_8",
+      "random_song_10_1",
+      "random_song_10_0"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T15:40:00",
+    "input song": "schere stein paar bier",
+    "recommended_songs": [
+      "random_song_11_1",
+      "liked_song_82",
+      "random_song_11_3",
+      "random_song_11_0",
+      "random_song_11_2"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T16:00:00",
+    "input song": "ay, que dios boludo",
+    "recommended_songs": [
+      "liked_song_71",
+      "random_song_12_0",
+      "random_song_12_2",
+      "random_song_12_1",
+      "random_song_12_3"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T16:20:00",
+    "input song": "extract",
+    "recommended_songs": [
+      "liked_song_51",
+      "random_song_13_1",
+      "random_song_13_0",
+      "random_song_13_2",
+      "liked_song_46"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T16:40:00",
+    "input song": "offering",
+    "recommended_songs": [
+      "random_song_14_2",
+      "random_song_14_3",
+      "random_song_14_1",
+      "random_song_14_0",
+      "liked_song_6"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T17:00:00",
+    "input song": "no! no! satisfaction!",
+    "recommended_songs": [
+      "random_song_15_2",
+      "random_song_15_0",
+      "liked_song_76",
+      "random_song_15_1",
+      "liked_song_54"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T17:20:00",
+    "input song": "g\u00e5rdakvarnar och skit",
+    "recommended_songs": [
+      "random_song_16_2",
+      "liked_song_1",
+      "random_song_16_1",
+      "random_song_16_0",
+      "liked_song_70"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T17:40:00",
+    "input song": "fuimos amor",
+    "recommended_songs": [
+      "random_song_17_1",
+      "random_song_17_3",
+      "liked_song_55",
+      "random_song_17_2",
+      "random_song_17_0"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T18:00:00",
+    "input song": "demon speeding",
+    "recommended_songs": [
+      "random_song_18_1",
+      "liked_song_22",
+      "random_song_18_0",
+      "liked_song_97",
+      "random_song_18_2"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T18:20:00",
+    "input song": "little satchel",
+    "recommended_songs": [
+      "random_song_19_0",
+      "liked_song_64",
+      "random_song_19_1",
+      "random_song_19_2",
+      "liked_song_77"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T18:40:00",
+    "input song": "pink life",
+    "recommended_songs": [
+      "random_song_20_1",
+      "random_song_20_2",
+      "liked_song_67",
+      "random_song_20_0",
+      "liked_song_99"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T19:00:00",
+    "input song": "taki taki",
+    "recommended_songs": [
+      "random_song_21_2",
+      "random_song_21_3",
+      "liked_song_46",
+      "random_song_21_0",
+      "random_song_21_1"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T19:20:00",
+    "input song": "a different story",
+    "recommended_songs": [
+      "liked_song_93",
+      "random_song_22_2",
+      "random_song_22_0",
+      "liked_song_10",
+      "random_song_22_1"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T19:40:00",
+    "input song": "oh no,oh yes!",
+    "recommended_songs": [
+      "liked_song_60",
+      "random_song_23_1",
+      "random_song_23_2",
+      "random_song_23_0",
+      "random_song_23_3"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T20:00:00",
+    "input song": "it's only us",
+    "recommended_songs": [
+      "liked_song_69",
+      "random_song_24_1",
+      "random_song_24_2",
+      "random_song_24_0",
+      "liked_song_96"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T20:20:00",
+    "input song": "risaune bhaye",
+    "recommended_songs": [
+      "random_song_25_0",
+      "random_song_25_1",
+      "random_song_25_3",
+      "liked_song_66",
+      "random_song_25_2"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T20:40:00",
+    "input song": "perfect cherry blossom",
+    "recommended_songs": [
+      "random_song_26_2",
+      "liked_song_2",
+      "random_song_26_1",
+      "random_song_26_0",
+      "random_song_26_3"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T21:00:00",
+    "input song": "sacajawea",
+    "recommended_songs": [
+      "random_song_27_2",
+      "random_song_27_1",
+      "random_song_27_3",
+      "random_song_27_0",
+      "liked_song_90"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T21:20:00",
+    "input song": "ppp",
+    "recommended_songs": [
+      "liked_song_9",
+      "random_song_28_2",
+      "random_song_28_1",
+      "random_song_28_0",
+      "liked_song_65"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T21:40:00",
+    "input song": "somente nela",
+    "recommended_songs": [
+      "random_song_29_1",
+      "random_song_29_0",
+      "liked_song_16",
+      "random_song_29_2",
+      "random_song_29_3"
+    ],
+    "precision@5": 0.2
+  },
+  {
+    "timestamp": "2025-08-01T22:00:00",
+    "input song": "tak 5",
+    "recommended_songs": [
+      "liked_song_24",
+      "random_song_30_0",
+      "liked_song_12",
+      "liked_song_55",
+      "liked_song_84"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-01T22:20:00",
+    "input song": "a gl\u00f3ria",
+    "recommended_songs": [
+      "liked_song_82",
+      "liked_song_83",
+      "liked_song_86",
+      "random_song_31_0",
+      "liked_song_6"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-01T22:40:00",
+    "input song": "adult add",
+    "recommended_songs": [
+      "liked_song_24",
+      "liked_song_13",
+      "random_song_32_0",
+      "liked_song_31",
+      "liked_song_68"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-01T23:00:00",
+    "input song": "xeroxed",
+    "recommended_songs": [
+      "liked_song_9",
+      "random_song_33_0",
+      "random_song_33_2",
+      "liked_song_31",
+      "random_song_33_1"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-01T23:20:00",
+    "input song": "saint homayun",
+    "recommended_songs": [
+      "liked_song_21",
+      "liked_song_30",
+      "liked_song_96",
+      "random_song_34_0",
+      "liked_song_52"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-01T23:40:00",
+    "input song": "wuddaji",
+    "recommended_songs": [
+      "liked_song_21",
+      "random_song_35_0",
+      "liked_song_48",
+      "liked_song_49",
+      "liked_song_0"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-02T00:00:00",
+    "input song": "recuerdos de una noche",
+    "recommended_songs": [
+      "liked_song_84",
+      "random_song_36_1",
+      "liked_song_93",
+      "liked_song_71",
+      "random_song_36_0"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T00:20:00",
+    "input song": "onde voc\u00ea est\u00e1?",
+    "recommended_songs": [
+      "random_song_37_1",
+      "liked_song_74",
+      "random_song_37_0",
+      "liked_song_7",
+      "random_song_37_2"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-02T00:40:00",
+    "input song": "you & me",
+    "recommended_songs": [
+      "random_song_38_1",
+      "random_song_38_0",
+      "liked_song_74",
+      "liked_song_61",
+      "random_song_38_2"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-02T01:00:00",
+    "input song": "tere naal",
+    "recommended_songs": [
+      "liked_song_76",
+      "random_song_39_0",
+      "liked_song_86",
+      "liked_song_8",
+      "liked_song_30"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-02T01:20:00",
+    "input song": "a ella",
+    "recommended_songs": [
+      "random_song_40_1",
+      "liked_song_5",
+      "liked_song_79",
+      "liked_song_10",
+      "random_song_40_0"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T01:40:00",
+    "input song": "i wanna let you know",
+    "recommended_songs": [
+      "liked_song_40",
+      "random_song_41_1",
+      "liked_song_33",
+      "liked_song_30",
+      "random_song_41_0"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T02:00:00",
+    "input song": "brumaire",
+    "recommended_songs": [
+      "liked_song_9",
+      "liked_song_1",
+      "random_song_42_1",
+      "liked_song_96",
+      "random_song_42_0"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T02:20:00",
+    "input song": "magasinsgatan",
+    "recommended_songs": [
+      "random_song_43_0",
+      "liked_song_16",
+      "random_song_43_1",
+      "liked_song_8",
+      "liked_song_44"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T02:40:00",
+    "input song": "mujer contra mujer",
+    "recommended_songs": [
+      "random_song_44_0",
+      "liked_song_90",
+      "liked_song_38",
+      "liked_song_69",
+      "random_song_44_1"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T03:00:00",
+    "input song": "what's good for the goose",
+    "recommended_songs": [
+      "random_song_45_0",
+      "liked_song_33",
+      "liked_song_14",
+      "liked_song_17",
+      "liked_song_13"
+    ],
+    "precision@5": 0.8
+  },
+  {
+    "timestamp": "2025-08-02T03:20:00",
+    "input song": "can you read my mind",
+    "recommended_songs": [
+      "random_song_46_1",
+      "liked_song_91",
+      "liked_song_43",
+      "random_song_46_0",
+      "liked_song_26"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T03:40:00",
+    "input song": "satellite radio / jimmy buffet",
+    "recommended_songs": [
+      "random_song_47_0",
+      "random_song_47_1",
+      "liked_song_35",
+      "random_song_47_2",
+      "liked_song_54"
+    ],
+    "precision@5": 0.4
+  },
+  {
+    "timestamp": "2025-08-02T04:00:00",
+    "input song": "scent of a woman: tango",
+    "recommended_songs": [
+      "liked_song_20",
+      "liked_song_33",
+      "liked_song_94",
+      "random_song_48_1",
+      "random_song_48_0"
+    ],
+    "precision@5": 0.6
+  },
+  {
+    "timestamp": "2025-08-02T04:20:00",
+    "input song": "fevicol se",
+    "recommended_songs": [
+      "random_song_49_0",
+      "random_song_49_1",
+      "liked_song_19",
+      "liked_song_88",
+      "random_song_49_2"
+    ],
+    "precision@5": 0.4
+  }
+]
