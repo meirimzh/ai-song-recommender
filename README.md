@@ -32,8 +32,8 @@ DISCLAIMER‼️:
 
 <p align="center">
 ‼️Please reopen the UI using npm start if you face any issues with the system‼️
-
+</p>
+<p align="center">
 Thank you for testing our system!
 </p>
-
 
