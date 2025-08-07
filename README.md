@@ -7,7 +7,7 @@ Our AI system is as a tool that finds songs based on the user’s interests. The
 1. Open the project in VSCode
 2. Open 2 split terminals
 3. On the first terminal, run python src/app.py to connect to the localhost that will receive song recommendation requests from the frontend
-4. Make sure that you have Electron installed in your system
+4. Make sure that you have Electron and Flask installed in your system
 5. On the second terminal, run npm start to open the Electron-based UI
 6. Press “Start finding new songs”
 
