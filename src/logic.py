@@ -99,6 +99,7 @@ if __name__ == "__main__":
     weights= np.array([feature_weight.get(feat,1.0) for feat in features])#retreives weights, default is set to 1.0 if missing
     X = df[features].values
 
+    
     kmeans = KMeans(n_clusters=10, random_state=42)
     labels = kmeans.fit_predict(X)
     df["cluster"] = labels
