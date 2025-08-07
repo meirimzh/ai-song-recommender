@@ -14,7 +14,7 @@ Our AI system is as a tool that finds songs based on the user’s interests. The
 DISCLAIMER‼️:
   Our dataset might not have the songs/artists that you might want to enter, so either:
 
-  Check that your song/artist is included in the dataset by opening data/clean_tracks_with_clusters.csv, and looking up the names using “Ctrl + F before testing the system
+  Check that your song/artist is included in the dataset by opening data/clean_tracks_with_clusters.csv, and looking up the names using “Ctrl + F" before testing the system
 
   OR
 
